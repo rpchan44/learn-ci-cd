@@ -3,7 +3,7 @@ pipeline {
     stages {
          stage('Unit Testing') {
             steps { 
-            sh "phpunit --log-junit result/phpunit/phpunit.xml -c tests/phpunit.xml"
+            sh "phpunit --log-junit result/phpunit/phpunit.xml --testdox -c tests/phpunit.xml"
             }
             post {
                 always {
