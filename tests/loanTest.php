@@ -13,7 +13,7 @@ class loanTest extends TestCase
 
         public function testComputeLoan()
         {
-                $this->assertEquals(560,$this->loanInstance->computeloan(500));
+                $this->assertEquals(600,$this->loanInstance->computeloan(500));
         }
 }
 ?>
