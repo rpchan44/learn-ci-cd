@@ -5,6 +5,11 @@ pipeline {
             steps { 
             sh "phpunit --log-junit result/phpunit/phpunit.xml -c tests/phpunit.xml"
             }
+            posts {
+                always {
+                    junit testResults: "result/phpunit/phpunit.xml"
+                }
+            }
         }
         stage('Deploying PHP Application') {
             steps {
