@@ -7,6 +7,7 @@ if ( isset($_POST['amount']) && (int)isset($_POST['amount']) > 0 ) {
 	$firstname = filter_var($_POST['firstname'], FILTER_SANITIZE_STRING);
 	$lastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING);
 	$computation = $loan->computeloan($amount);
+	$amount = number_format($amount, 2, '.', '');
 	$total = number_format($computation, 2, '.', '');
 	$monthly = number_format($total / 12, 2, '.', '');
 	print "<center><h1>Mr/Ms $firstname $lastname</h1><center></br>";
