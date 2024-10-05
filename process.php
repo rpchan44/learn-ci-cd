@@ -3,8 +3,6 @@ require 'src/loan.class.php';
 $loan = new loan;
 
 if ( isset($_POST['amount']) && (int)isset($_POST['amount']) > 0 ) {
-
-	
 	$amount = (float)filter_var($_POST['amount'], FILTER_SANITIZE_STRING);
 	$firstname = filter_var($_POST['firstname'], FILTER_SANITIZE_STRING);
 	$lastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING);
