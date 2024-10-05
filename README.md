@@ -3,7 +3,9 @@
 This is just for educational purposes just barely scratch the surface
 
 ## Pre-requisite and assumption
-A webhook on your github repository pointing to your build server that will trigger the build\
+If you clone this repository ensure you have webhook configured on your own github repository where you fork this demo code \
+
+A webhook on your github repository pointing to your build server that will trigger the build \
 
 For the build server\
 \
