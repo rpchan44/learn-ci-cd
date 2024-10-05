@@ -6,7 +6,7 @@ if ( isset($_POST['amount']) && (int)isset($_POST['amount']) > 0 ) {
 	$amount = filter_var($_POST['amount'], FILTER_SANITIZE_NUMBER_INT);
 	$firstname = filter_var($_POST['firstname'], FILTER_SANITIZE_STRING);
 	$lastname = filter_var($_POST['lastname'], FILTER_SANITIZE_STRING);
-	$mail = filter_var($_POST['e-mail'], FILTER_SANITIZE_STRING);
+	$mail = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
 	$computation = $loan->computeloan($amount);
 	$amount = number_format($amount, 2, '.', '');
 	$total = number_format($computation, 2, '.', '');
