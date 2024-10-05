@@ -8,7 +8,7 @@ if ( isset($_POST['amount']) && (int)isset($_POST['amount']) > 0 ) {
 	$firstname = strip_tags($_POST['firstname']);
 	$lastname = strip_tags($_POST['lastname']);
 	$total = $loan->computeloan($amount);
-	$monthly = $tottal / 12;
+	$monthly = $total / 12;
 	print "<center><h1>Welcome $firstname, $lastname</h1><center></br>";
 	print "<center><h1>Your total loan + 20% interest is $total your monthly dues in a year is $monthly/</h1></center>";
 } else {
