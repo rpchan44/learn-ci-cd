@@ -5,7 +5,7 @@ pipeline {
             steps { 
             sh "phpunit --log-junit result/phpunit/phpunit.xml -c tests/phpunit.xml"
             }
-            posts {
+            post {
                 always {
                     junit testResults: "result/phpunit/phpunit.xml"
                 }
