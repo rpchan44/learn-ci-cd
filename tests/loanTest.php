@@ -1,5 +1,5 @@
 <?php
-require '../src/loan.class.php';
+require 'loan.class.php';
 use PHPUnit\Framework\TestCase;
 
 class loanTest extends TestCase
