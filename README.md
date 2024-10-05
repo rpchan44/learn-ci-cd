@@ -1,4 +1,4 @@
-# Jenkins CI/CD - 101 pipelines
+# Jenkins CI/CD - 101 pipelines for PHP application
 
 This is just for educational purposes just barely scratch the surface
 
