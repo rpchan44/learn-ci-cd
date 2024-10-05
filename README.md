@@ -3,6 +3,7 @@
 This is just for educational purposes just barely scratch the surface
 
 ## Pre-requisite and assumption
+A webhook on your github repository pointing to your build server that will trigger the build\
 
 For the build server\
 \
