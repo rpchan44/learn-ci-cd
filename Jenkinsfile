@@ -1,6 +1,12 @@
 pipeline {
     agent any
-
+    stages {
+        stage('Unit Testing') {
+            steps { 
+            sh "phpunit --log-junit result/phpunit/phpunit.xml -c tests/phpunit.xml"
+            }
+        }
+    }
     stages {
         stage('Deploying PHP Application') {
             steps {
