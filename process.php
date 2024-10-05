@@ -2,7 +2,7 @@
 require 'src/loan.class.php';
 $loan = new loan;
 
-if ( isset($_POST['amount']) && isset($_POST['amount']) > 0 ) {
+if ( isset($_POST['amount']) && (int)isset($_POST['amount']) > 0 ) {
 
 	$amount = $_POST['amount'];
 	$total = $loan->computeloan($amount);
