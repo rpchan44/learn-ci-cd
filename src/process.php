@@ -1,5 +1,5 @@
 <?php
-require 'src/loan.class.php';
+require 'loan.class.php';
 $loan = new loan;
 
 if ( isset($_POST['amount']) && (int)isset($_POST['amount']) > 0 ) {
