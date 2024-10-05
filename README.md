@@ -1,9 +1,10 @@
 # Jenkins CI/CD - 101 pipelines
 
-This is just for educational purposes, just barely scratch the surface
+This is just for educational purposes just barely scratch the surface
 
 ## Pre-requisite and assumption
 
-Your jenkins (Build Server) is already installed on your favorite linux distribution and publish over ssh plugin is also installed
-A linux host with PHP already installed
+Your jenkins (Build Server) is already installed on your favorite linux distribution and publish over ssh plugin && phpunit is both installed together with its dependency
+
+A linux host with at least PHP 8.1.2 and apache2
 
