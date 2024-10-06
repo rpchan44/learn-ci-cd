@@ -16,3 +16,8 @@ publish over ssh plugin & phpunit is both installed together with its dependency
 
 A linux host with at least PHP 8.1.2 and apache2
 
+https://github.com/rpchan44/learn-ci-cd/blob/main/images/1of5.png
+https://github.com/rpchan44/learn-ci-cd/blob/main/images/2of5.png
+https://github.com/rpchan44/learn-ci-cd/blob/main/images/3of5.png
+https://github.com/rpchan44/learn-ci-cd/blob/main/images/4of5.png
+https://github.com/rpchan44/learn-ci-cd/blob/main/images/5of5.png
