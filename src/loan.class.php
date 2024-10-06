@@ -3,7 +3,7 @@
 class loan {
 
         public function computeloan(float $amount): float {
-                return $amount = $amount + ($amount * 0.20);
+                return $amount = $amount + ($amount * 0.10);
         }
 }
 ?>
